@@ -1,0 +1,36 @@
+body {
+    background-color: darkgoldenrod;
+}
+
+.page-heading {
+    margin-top: 1em;
+    font-size: 6em;
+    color: rgba(194, 71, 92, 0.895);
+}
+
+.filter-strip {
+    margin-top: 6em;
+}
+
+.movie-output {
+    margin-top: 6em;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
+}
+
+.card-img-top {
+    border-radius: 0%;
+}
+
+.form-select:active {
+    background-color: none;
+}

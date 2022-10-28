@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Movie Review</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Adding in our own styling  -->
+        <h1 class="text-center page-heading">Stewing Courgettes</h1>
+
+
+        <!-- Filtering Strip -->
+        <div class="row justify-content-around filter-strip">
+            <!-- Genre Select -->
+            <div class="col-3">
+                <select class="form-select" id="genreSelect" aria-label="Default select example">
+                    <option selected>Genre</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Sci-Fi">Sci-Fi</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Kids">Kids</option>
+                    <option value="Action">Action</option>
+                </select>
+            </div>
+            <!-- Starring Select -->
+            <div class="col-3">
+                <select class="form-select" id="starringSelect">
+                    <option selected>Starring</option>
+                    <option value="Woody">Woody</option>
+                    <option value="Remy">Remy</option>
+                    <option value="Daniel Craig">Daniel Craig</option>
+                    <option value="Jack Nicholson">Jack Nicholson</option>
+                    <option value="Matthew McConaughey">Matthew McConaughey</option>
+                </select>
+            </div>
+            <!-- Rating -->
+            <div class="col-3">
+                <select class="form-select" id="ratingSelect">
+                    <option selected>Rating</option>
+                    <option value="PG">PG</option>
+                    <option value="R13">R13</option>
+                    <option value="R18">R18</option>
+                </select>
+            </div>
+        </div>
+        <!-- End of filtering strip -->
+
+        <!-- Start of movie card output containers -->
+        <div class="row movie-output" id="movieOutput">
+            <!-- Card 1 -->
+            <!-- JS -->
+        </div>
+        <!-- End of movie card output container -->
+
+    </div>
+
+    <!-- MODALS - Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#movieModal">
+        Launch demo modal
+    </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="movieModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous">
+    </script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
